@@ -1,0 +1,207 @@
+.card {
+  border: 0;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.card-body {
+  text-align: center;
+  padding: 10px !important;
+}
+
+.cardbtn {
+  outline: none !important;
+  background-color: white;
+  border: 1px solid black;
+  padding: 4px 8px;
+  font-size: 16px;
+}
+
+.cardbtn:hover {
+  color: white;
+  background-color: black;
+}
+
+.hover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  bottom: 155px;
+  width: 100%;
+  height: 0px;
+  transition-property: height;
+  transition-duration: 0.3s;
+}
+
+.card-img:hover > .hover {
+  height: 300px;
+}
+
+.card-img:hover > .hover i {
+  display: block;
+}
+
+.hover i {
+  transition-property: display;
+  transition-duration: 0.5s;
+  display: none;
+  color: white;
+  opacity: 1;
+}
+
+.zoomName {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.desc2 {
+  padding: 8px 39px;
+}
+
+.zoomPrice {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.imgdiv {
+  margin-top: 15px !important;
+  /* margin-left: 30px !important; */
+  position: relative;
+  height: 400px !important;
+  width: 400px !important;
+  margin-left: 33px !important;
+
+  background-size: 500px;
+}
+
+.zoomImg {
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  cursor: pointer;
+  /* transform:  translate(-50%, -50%); */
+}
+
+.close1 {
+  position: absolute;
+  right: 0%;
+  padding: 0px 6px !important;
+  outline: none !important;
+  border: none !important;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px !important;
+}
+
+.close1:hover {
+  color: black;
+  background-color: white;
+}
+
+.inputQty {
+  display: inline-block;
+  padding: 8px;
+  margin: 8px 8px 8px 0px;
+  width: 50px;
+  background: white;
+  border: 1px solid black;
+  font-size: 14px;
+}
+/* .zoomImg:hover{
+    height: 500px;
+    width: 500px;
+}  */
+
+.icons {
+  height: 30px;
+  width: 30px;
+}
+.previous {
+  position: fixed;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1em;
+
+  z-index: 5;
+  /* left: -12%; */
+}
+.next {
+  position: fixed;
+  color: white;
+  font-size: 2em;
+  cursor: pointer !important;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1em;
+  /* left: 71%; */
+  /* left: 63%; */
+  z-index: 5;
+}
+
+.monkeyDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.monkeyDiv img {
+  display: flex;
+  justify-content: center;
+  height: 85px;
+  width: 92px;
+  margin-left: 5px;
+  margin-right: 5px;
+  /* border: none !important; */
+}
+
+.modal-bg {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal11 {
+  position: relative;
+
+  background-color: white;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-direction: column;
+  z-index: 1;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-weight: bolder;
+  border: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: larger;
+}
+
+.close-btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
